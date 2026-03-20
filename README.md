@@ -8,14 +8,14 @@ Lista todos os produtos.
 ### URL:
 http://localhost:3000/api/produtos
 
-### Exemplo de codigo:
+### Resposta:
 ```json
 [
   {
     "id": 1,
     "nome": "Mouse",
     "preco": 100,
-    "categoria": "eletronicos",
+    "categoria": "informatica",
     "estoque": 50
   }
 ]
@@ -27,13 +27,13 @@ Busca um produto pelo ID.
 ### URL:
 http://localhost:3000/api/produtos/1
 
-### Exemplo de codigo:
+### Resposta:
 ```json
 {
   "id": 1,
   "nome": "Mouse",
   "preco": 100,
-  "categoria": "eletronicos",
+  "categoria": "informatica",
   "estoque": 50
 }
 ```
@@ -49,17 +49,17 @@ http://localhost:3000/api/produtos
 {
   "nome": "Mouse",
   "preco": 100,
-  "categoria": "eletronicos",
+  "categoria": "informatica",
   "estoque": 50
 }
 ```
-### Exemplo de codigo:
+### Resposta:
 ```json
 {
   "id": 6,
   "nome": "Mouse",
   "preco": 100,
-  "categoria": "eletronicos",
+  "categoria": "informatica",
   "estoque": 50
 }
 ```
