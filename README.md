@@ -88,9 +88,10 @@ Os testes foram realizados utilizando o Postman.
 * POST /api/produtos
 
 # Collection
-A collection do Postman está disponível na pasta:
+A collection do Postman está disponível na pasta docs
 
-docs/
+# Prints
+As prints estão na pasta Prints
 
 # Conclusão
 API funcional com:
