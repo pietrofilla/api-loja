@@ -1,0 +1,90 @@
+{
+  "info": {
+    "_postman_id": "beb3801f-99a5-45f2-aaaf-4aab65549c55",
+    "name": "api-loja",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "53190247",
+    "_collection_link": "https://go.postman.co/collection/53190247-beb3801f-99a5-45f2-aaaf-4aab65549c55?source=collection_link"
+  },
+  "item": [
+    {
+      "name": "POST api/produtos",
+      "request": {
+        "auth": {
+          "type": "noauth"
+        },
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n  \"nome\": \"Mouse\",\r\n  \"preco\": 100,\r\n  \"categoria\": \"eletronicos\",\r\n  \"estoque\": 50\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:3000/api/produtos",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "3000",
+          "path": [
+            "api",
+            "produtos"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "GET api/produtos",
+      "request": {
+        "auth": {
+          "type": "noauth"
+        },
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:3000/api/produtos",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "3000",
+          "path": [
+            "api",
+            "produtos"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "GET api/produtos/id",
+      "request": {
+        "auth": {
+          "type": "noauth"
+        },
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:3000/api/produtos/1",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "3000",
+          "path": [
+            "api",
+            "produtos",
+            "1"
+          ]
+        }
+      },
+      "response": []
+    }
+  ]
+}
